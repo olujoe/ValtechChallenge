@@ -30,10 +30,10 @@ public interface BaseTestScenario extends TestUtils {
             }
         } else {
             System.out.print("\r\n" + "I am searching for " + pageItem.toLowerCase());
-            Boolean pageItemElement = getDriver().getpageSource().contains(pageItem);
+            Boolean pageItemElement = getDriver().getPageSource().contains(pageItem);
             System.out.println("\r\n" + "I have found " + pageItem);
             if (pageItemElement != null) {
-                System.out.println("\r\n" + "I have found " + pageItemElement.getText());
+                System.out.println("\r\n" + "I have found " + pageItemElement);
             } else {
                 System.out.println("\r\n" + "I can't find dom");
             }
