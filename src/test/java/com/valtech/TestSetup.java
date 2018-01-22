@@ -18,8 +18,8 @@ public class TestSetup {
             System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedriver");
             System.setProperty("webdriver.gecko.driver", "./drivers/mac/geckodriver");
         }else if(isWindows()){
-            System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
-            System.setProperty("webdriver.gecko.driver", "D:\\geckodriver-v0.13.0-win32\\geckodriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\olugbenga\\Documents\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\olugbenga\\Documents\\geckodriver-v0.19.1-win32\\geckodriver.exe");
         }
     }
 
