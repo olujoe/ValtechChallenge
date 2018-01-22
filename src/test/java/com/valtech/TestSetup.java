@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by olu.ogunbusola on 05/01/2018.
+ * Created by olu.ogunbusola on 21/01/2018.
  */
 public class TestSetup {
     protected static String OS = System.getProperty("os.name").toLowerCase();
