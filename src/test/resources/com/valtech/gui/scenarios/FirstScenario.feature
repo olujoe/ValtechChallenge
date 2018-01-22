@@ -7,10 +7,7 @@ Feature: First Scenario Test
     Given I navigate to valtech
     Then I should see "Latest News"
 
-
-
-  #@C1056792
-  Scenario: Check that you can load each region
+  Scenario Outline: Check that you can load each region
     Given I click on "<page>"
     Then I should see "<page_H1>"
   Examples:
