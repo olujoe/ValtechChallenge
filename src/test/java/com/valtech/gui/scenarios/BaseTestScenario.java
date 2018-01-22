@@ -1,7 +1,7 @@
-package com.newshub.gui.scenarios;
+package com.valtech.gui.scenarios;
 
-import com.newshub.TestSetup;
-import com.newshub.TestUtils;
+import com.valtech.TestSetup;
+import com.valtech.TestUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

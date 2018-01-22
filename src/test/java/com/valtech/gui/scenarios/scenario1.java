@@ -1,6 +1,6 @@
-package com.newshub.gui.scenarios;
+package com.valtech.gui.scenarios;
 
-import com.newshub.TestSetup;
+import com.valtech.TestSetup;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;

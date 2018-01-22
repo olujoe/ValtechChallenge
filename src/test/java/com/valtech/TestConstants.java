@@ -1,4 +1,4 @@
-package com.newshub;
+package com.valtech;
 
 public final class TestConstants {
 

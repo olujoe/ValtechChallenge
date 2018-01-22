@@ -1,4 +1,4 @@
-package com.newshub;
+package com.valtech;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

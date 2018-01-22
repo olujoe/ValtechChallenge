@@ -1,7 +1,5 @@
-package com.newshub;
+package com.valtech;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -12,8 +10,8 @@ import org.slf4j.LoggerFactory;
  */
 public class TestSetup {
     protected static String OS = System.getProperty("os.name").toLowerCase();
-    private static String host = TestConstants.HOST;
-    protected WebDriver driver = WEB_DRIVER_THREAD_LOCAL();
+    private static String host = com.valtech.TestConstants.HOST;
+    protected WebDriver driver = WEB_DRIVER_THREAD_LOCAL.get();
 
     public static void setUpTest(){
         if(isMac()) {
@@ -51,8 +49,8 @@ public class TestSetup {
     public static final ThreadLocal<WebDriver> WEB_DRIVER_THREAD_LOCAL =
             new ThreadLocal<WebDriver>() {
             @Override
-                protected Webdriver initialValue() {
+                protected WebDriver initialValue() {
                     return new ChromeDriver();
                 }
-    }
+    };
 }

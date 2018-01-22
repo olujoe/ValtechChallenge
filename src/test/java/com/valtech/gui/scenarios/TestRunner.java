@@ -1,4 +1,4 @@
-package com.newshub.gui.scenarios;
+package com.valtech.gui.scenarios;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
