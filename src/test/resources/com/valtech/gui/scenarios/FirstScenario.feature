@@ -11,7 +11,7 @@ Feature: First Scenario Test
     Given I click on "<page>"
     Then I should see "<page_H1>"
   Examples:
-      |page         |page_H1      |home   |
-      |ABOUT        |ABOUT        |NewsHub|
-      |SERVICES     |SERVICES     |NewsHub|
-      |WORK         |WORK         |NewsHub|
+      |page         |page_H1      |
+      |ABOUT        |ABOUT        |
+      |SERVICES     |SERVICES     |
+      |WORK         |WORK         |
